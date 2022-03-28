@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/Courses.css" type="text/css">
+    <title>Courses</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h2>PeopleCert Education</h2>
+        </div>
+    </header>
+    <div class="container">
+        <nav class="cf">
+            <ul>
+                <li><a href="sub_page1.html" class="current">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a>
+                        <ul>
+                            <li><a href="courses.html">Courses</a></li>
+                            <li><a href="Trainers.html">Trainers</a></li>
+                            <li><a href="Students.html">Students</a></li>
+                            <li><a href="Assignments.html">Assignments</a>
+                                <ul>
+                                    <li><a href="Assignments per student per course.html">Per S/C</a></li>
+                                </ul>
+                            </li>
+                            
+                       </ul>
+               </li>
+               <li><a href="">Contact</a></li>
+         </ul>
+        </nav>
+
+
+    </div>
+    
+<div id="forma">
+    <form>
+        <header>
+            <h3>Courses</h3>
+        </header>
+        <main>
+        <div class="etiketa">
+            <label for="title">Title</label>
+        </div>
+        <div class="eisagogi">
+            <input type="text" id="title" required placeholder="title" class="form-control">
+            <h6 id="passcheck" style="color: rgb(71, 70, 70);">
+                **Please Fill the Title
+                </h6>
+
+            
+           
+        </div>
+        <div class="etiketa">
+            <label for="stream">Stream</label>
+            
+        </div>
+        <div class="eisagogi">
+            
+            <select size="" required >
+                <option>Python</option>
+                <option>Java</option>
+                <option>Javascript</option>
+                <option>C#</option>
+            </select>
+            <h6 id="passcheck" style="color: rgb(71, 70, 70);">
+                **Please choose a Stream
+                </h6>
+
+        </div>
+        <div class="etiketa">
+            <label for="type">Type</label>
+        </div>
+        <div class="eisagogi">
+            <input type="text" id="type" required placeholder="type" class="form-control">
+            <h6 id="passcheck" style="color: rgb(71, 70, 70);">
+                **Please Fill the Type of the Course
+                </h6>
+
+        </div>
+        <div class="etiketa">
+            <label for="startDate">Start Date</label>
+        </div>
+        <div class="eisagogi">
+            <input type="date" id="sdate" class="form-control">
+            <h6 id="passcheck" style="color: rgb(71, 70, 70);">
+                **Please Fill the Start Date
+                </h6>
+
+        </div>
+        <div class="etiketa">
+            <label for="endDate">End Date</label>
+        </div>
+        <div class="eisagogi">
+            <input type="date" id="edate" class="form-control">
+            <h6 id="passcheck" style="color: rgb(71, 70, 70);">
+                **Please Fill the End Date
+                </h6>
+
+        </div>
+        <div class="etiketa" >
+            <label for="nstudents">Number of Students</label>
+        </div>
+        <div class="eisagogi">
+            <input type="number" id="nos" placeholder="number of students" class="form-check" maxlength="30">
+            <h6 id="passcheck" style="color: rgb(71, 70, 70);">
+                **Please Fill the Number of the Students
+                </h6>
+
+        </div>
+    
+    <div class="etiketa" >
+        <label for="etrainers">Trainers Enrolled</label>
+        
+    </div>
+    <div class="eisagogi">
+        <input type="number" id="etrainers" placeholder="trainers enrolled" class="form-control">
+        <h6 id="passcheck" style="color: rgb(71, 70, 70);">
+            **Please Fill the Number of  trainers
+            </h6>
+
+    </div>
+    <div class="etiketa" >
+        <label for="assignments">Assignments</label>
+    </div>
+    <div class="eisagogi">
+        
+    
+     
+        <select size="" required >
+            <option >Assignment 1</option>
+            <option >Assignment 2</option>
+            <option>Assignment 3</option>
+            <option>Assignment 4</option>
+            <option>Assignment 5</option>
+            <option>Individual Project</option>
+            <option>Team Project</option>
+        </select>
+    </div>
+        
+
+    </main>
+    <br>
+        <footer>
+            <input type="button" value="Add">
+            <input type="button" value="Edit">
+        </footer>
+    </form>
+</div>
+
+<div class=footer>
+    <footer>
+        <p>Copyright &copy; by kostas</p> 
+    </footer>
+</div>  
+    
+    
+    
+    
+</body>
+</html>

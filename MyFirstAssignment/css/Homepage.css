@@ -1,0 +1,59 @@
+* {
+    
+    box-sizing: border-box;
+}
+/*create body,header*/
+body img {
+    width:800px;
+    height: 800px;
+    max-width: 1000px;
+}
+
+h2 {
+   color: rgb(240, 68, 6);
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 50px;
+   letter-spacing: 5px;
+   
+   
+}
+
+body {
+    
+    background-image: url(../images/programming.jpg);
+  background-size: auto;
+   
+    
+}
+.container {
+    
+    height: 50px;
+    width: 60px;
+    padding-top: 50%;
+    
+    padding-right: 5%;
+    display: inline;
+    text-align: center;
+    margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  
+    
+    
+}
+input{
+    background-color:orangered;
+}
+.footer{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+padding-top: 200px;
+padding-bottom: 50px;
+height: 20px;
+clear: both;
+margin-top: 15%;
+color: rgb(184, 8, 37);
+}

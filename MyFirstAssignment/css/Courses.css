@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+/*styling header,footer,body*/
+h2 {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+   
+    
+    
+ }
+body {
+    background-color:rgb(158, 157, 157);
+}
+.header{
+    background-color:orangered ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 120px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+.footer{
+
+background-color:orangered ;
+text-align: center;
+padding-top: 50px;
+padding-bottom: 50px;
+height: 20px;
+clear: both;
+margin-top: 15%;
+}
+/*styling the nav section*/
+nav {
+    background-color: rgb(236, 225, 225);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul  li {
+    height:40px;
+    width: 100px;
+    float: left;
+    background-color: rgb(236, 225, 225);
+}  
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: rgb(236, 225, 225);
+    position:relative;
+}
+nav ul ul {
+    visibility: hidden;
+}
+nav ul li:hover ul {
+    visibility:visible ;
+}
+nav ul li a:hover {
+    background-color: rgb(241, 82, 9);
+}
+.cf:before,
+.cf:after {
+    content: " "; 
+    display: table; 
+}
+
+.cf:after {
+    clear: both;
+}
+nav ul li:hover ul {
+    visibility: visible;
+}
+nav ul li:hover ul ul {
+    visibility: hidden;
+}
+nav ul ul li:hover ul {
+    visibility: visible;
+}
+nav ul ul ul  {
+
+    position: relative;
+    left: 100px;
+    top: -40px;
+   
+    
+}
+nav ul ul ul li a {
+    position: relative;
+}
+/*styling the inputs*/
+input[type=text], select, textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid orangered;
+    border-radius: 10px;
+    resize: vertical;
+  }
+  input[type=date], select, textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid orangered;
+    border-radius: 10px;
+    resize: vertical;
+  }
+  input[type=number], select, textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid orangered;
+    border-radius: 10px;
+    resize: vertical;
+  }
+  input[type=button] {
+    background-color: rgb(99, 97, 97);
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#forma {
+    width: 500px;
+    padding: 10px 0;
+     margin: 50px auto;
+     
+}
+
+
+
+   
